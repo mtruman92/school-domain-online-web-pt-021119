@@ -4,6 +4,6 @@ class School
     @name = name
   end
   
-  School ={}
+  School.new ={}
   
 end 
