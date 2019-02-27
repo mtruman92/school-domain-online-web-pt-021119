@@ -12,6 +12,8 @@ class School
   #School.new ={}
   
   def add_student(name,grade)
+    roster[grade] ||= []
+    roster[grade] << name
   end
   
   def grade(grade)
