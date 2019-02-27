@@ -12,5 +12,6 @@ class School
   #School.new ={}
   
   def add_student(name,grade)
+  end
   
 end 
