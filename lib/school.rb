@@ -2,8 +2,15 @@
 class School
   def initialize(name)
     @name = name
+    @roster = {}
   end
   
-  School.new ={}
+  def roster
+    @roster
+  end 
+  
+  #School.new ={}
+  
+  def add_student(name,grade)
   
 end 
